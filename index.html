@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TAME IMPALA </title>
+</head>
+
+<body>
+    <header>
+
+        <div>
+            <div id = "titulo">
+                <h1> TAME IMPALA</h1>
+            </div>
+    
+            <div id = "menu">
+                <nav>
+                    <ul>
+                        <li><a href = "#home"> Home </a></li>
+                        <li><a href = "#contato"> Contato </a></li>
+                    </ul>
+                </nav>
+    
+                <div id = "validador">
+                    <h2> Você gosta dessa banda? </h2>
+                    <input type = "radio" name = "cor" value = "amarelo">
+                    <label for = "amarelo"> Sim </label><br>
+                    <input type = "radio" name = "cor" id = "vermelho">
+                    <label for = "vermelho"> Não </label>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id = "home">
+
+            <article id = "home_texto">
+                <h4> Bem vindo ao universo de Tame Impala </h4>
+                <p>
+                    Tame impala é o projeto musical psicodelico do multi-instrumentista
+                    australiano Kevin Parker.
+                </p>
+                <a target = "_blank" href = "video.html"> Tame Impala - Currents Collectors Edition </a>
+            </article><br>
+
+            </article id = "home_image">
+                <img src = "assets/img/kevin-parker-570659a225e79.jpg" 
+                    alt = "Kevin Parker">
+            </article>
+        </section>
+
+        <section id = "contato">
+            <article id = "redes_sociais">
+                <h4> Siga a banda! </h4>
+                <p> Siga a banda no Instagram para descobrir mais sobre esse projeto musical! </p>
+                
+                <div id = "icones_redes_sociais">
+                    <a href = "">
+                        <img src = "https://img.icons8.com/?size=100&id=32292&format=png" 
+                            alt="Instagram" />
+                    </a> 
+                </div>
+            </article>
+
+            <div>
+                <h4> Envie uma mensagem diretamente para o Kevin Parker! </h4>
+                        <form action = "" method = "POST">
+                        <input type="hidden" name="_next" value="">
+                        <input type="hidden" name="_captcha" value="false">
+        
+                        <label for="nome"><strong>Nome: </strong></label>
+                        <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+        
+                        <label for="email"><strong>Email: </strong></label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+        
+                        <label for="subject"><strong>Assunto: </strong></label>
+                        <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+        
+                        <label for="message"><strong>Mensagem: </strong></label>
+                        <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+        
+                        <button type="submit">Enviar</button>
+                 </form>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p> Feito com ❤ por Marcelo - 2024 &copy; </p>
+    </footer>
+
+</body>
+
+</html>
