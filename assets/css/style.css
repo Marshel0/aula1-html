@@ -58,9 +58,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .home-texto-titulo {
@@ -107,4 +106,25 @@ footer {
     margin-top: 10px;
     justify-content: space-around;
     align-items: center;
+}
+
+/* Pagina do video */
+
+.body-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    background-color: rgb(125, 134, 131);
+}
+
+.main-video-container {
+    background-color: crimson;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav-video-container {
+    padding: 20px;
 }
